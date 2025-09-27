@@ -6,7 +6,7 @@ export function App() {
   const [scroll, scrollTo] = useWindowScroll()
 
   return (
-    <div>
+    <div className='wrapper'>
       <p>
         Scroll position x: {scroll.x}, y: {scroll.y}
       </p>
